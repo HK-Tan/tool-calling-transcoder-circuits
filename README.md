@@ -2,10 +2,6 @@
 
 This notebook investigates the circuits underlying tool-calling behavior in Qwen3-4B using attribution graphs and causal interventions.
 
-## Hypothesis
-
-**Tool delegation shares circuitry with "known answer" circuits.** When a model delegates to a tool, it may be using similar mechanisms to when it recognizes it doesn't know an answer - essentially detecting "I don't know this, but I know how to find out."
-
 ## Experiments
 
 1. **Known Answer vs Tool Use** - Compare circuits when the model knows an answer directly vs. when it delegates to a tool
