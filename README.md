@@ -36,6 +36,10 @@ The `circuit_tracer/` folder contains code from [circuit-tracer](https://github.
 
 The `graph_visualization.py` file is also from the circuit-tracer demos.
 
+## Future Work
+
+- **Instruction Ordering Attribution Graphs**: The notebook includes experiments (2XXX prompts) exploring how instruction ordering affects tool selection probability, revealing a strong "recency effect." However, attribution graph analysis and causal interventions for these ordering experiments remain to be done. This would help identify which circuits are responsible for the recency bias in instruction following.
+
 ## Citation
 
 If you use the circuit-tracer library, please cite:
